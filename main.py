@@ -28,7 +28,7 @@ parser.add_argument('--maxdisp', type=int, default=192, help='maximum disparity'
 parser.add_argument('--inliers', type=int, default=3, help='how many std to include for inliers')
 parser.add_argument('--bin_scale', type=str, default='line', help='how to create the distribution, line or log')
 parser.add_argument('--n_bins', type=int, default=11, help='how many bins to create the distribution')
-parser.add_argument('--loss_type', type=str, required=True, help='define the componet of loss')
+parser.add_argument('smooth_l1', type=str, required=True, help='define the componet of loss')
 parser.add_argument('--mask', type=str, default='soft', help='type of mask assignment',choices=['soft','hard'])
 
 # dataset
