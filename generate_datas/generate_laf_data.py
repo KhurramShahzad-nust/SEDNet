@@ -6,7 +6,7 @@ import torch.backends.cudnn as cudnn
 import torch.optim as optim
 import torch.utils.data
 import time
-from datasets import __datasets__
+from datasets import sceneflow_dataset.py
 from models import __models__, model_loss
 from utils import *
 from torch.utils.data import DataLoader
